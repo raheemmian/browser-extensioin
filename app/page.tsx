@@ -2,8 +2,6 @@
 import Card from "./components/card";
 import cardData  from "./data/cardData";
 import { useState } from "react";
-import { useTheme } from "next-themes"
-import { useEffect } from 'react';
 
 export default function Home() {
 
