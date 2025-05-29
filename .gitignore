@@ -39,3 +39,37 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# VSCode settings
+.vscode/
+
+# OS files
+Thumbs.db
+Icon?
+
+# IDE files
+.idea/
+*.iml
+
+# Test snapshots
+__snapshots__/
+
+# Misc
+*.local
+*.log
+
+# Next.js export
+*.exported.json
+
+# Optional: lock files (if you don't want to commit them)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Optional: custom data or secrets
+*.secret*
+*.key
+
+# Ignore browser-extensions-manager-ui-main/ if it's just a reference or design folder
+browser-extensions-manager-ui-main/
